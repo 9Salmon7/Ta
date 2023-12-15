@@ -1,7 +1,7 @@
 databases:
   - name: django_render_db
     databaseName: django_render_db
-    user: Django_user
+    user: django_user
     region: singapore
     plan: free
 
