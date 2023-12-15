@@ -85,7 +85,7 @@ WSGI_APPLICATION = 'SampleProject.wsgi.application'
 default_dburl = "sqlite:///" + str(BASE_DIR / "db.sqlite3")
 
 DATEBASES = {
-    "default" = config("DATEBASE_URL", default=default_dburl, cast=dburl),
+    "default": config("DATEBASE_URL", default=default_dburl, cast=dburl),
 }
 
 # Password validation
